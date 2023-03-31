@@ -1,1 +1,58 @@
 /* Add CSS styling here */
+
+* {
+    background-color: darkgray;
+}
+
+/* Title */
+
+.N_JT h1{
+    display: inline-block;
+    font-size: 80px;
+    border: 1px black solid;
+
+}
+
+.N_JT{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation Styling */
+
+.nav a{
+    border: 1px solid black;
+    background: lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Welcome {
+    text-align: center;
+    font-size: 12rem;
+    
+}
+
+.body_of_work {
+    border: 1px black solid;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img {
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+}
